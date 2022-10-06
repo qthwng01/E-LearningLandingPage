@@ -846,7 +846,8 @@ li {
     }
     .introduce__text {
         text-align: center;
-        font-size: 45px;
+        font-size: 35px;
+        line-height: 40px;
         width: auto;
     }
     .introduce p {
@@ -1014,6 +1015,10 @@ li {
         padding: 0;
         margin-left: 8px;
     }
+    .support__footer {
+        margin-top: 0;
+        margin-left: 8px;
+    }
     .about__footer h4 {
         font-size: 16px;
     }
@@ -1049,10 +1054,6 @@ li {
 }
 
 @media only screen and (min-width: 319px) and (max-width: 740px) {
-    .introduce__text {
-        font-size: 20px;
-        line-height: 25px;
-    }
     .title__courses h2 {
         font-size: 20px;
         line-height: 25px;
