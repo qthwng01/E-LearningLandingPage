@@ -1044,6 +1044,15 @@ li {
         width: 100%;
         padding: 0 100px;
     }
+    .detail__card {
+        height: 300px;
+    }
+    .detail__card2 {
+        height: 300px;
+    }
+    .detail__card3 {
+        height: 300px;
+    }
     .footer__brand {
         flex-direction: column;
         align-items: center;
@@ -1202,3 +1211,32 @@ li {
         margin-top: 2rem;
     }
 } */
+
+@media only screen and (max-width: 410px) {
+    .plan__card {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .audience {
+        bottom: 225px;
+        left: 218px;
+    }
+    .partner {
+        margin-top: -20rem;
+    }
+    .feedback__list {
+        padding-left: 20px;
+    }
+    .lecture__figure img {
+        position: absolute;
+        width: 140%;
+        top: 35px;
+        right: 0;
+    }
+    .lecture__cover-shape {
+        width: 140%;
+        height: 300px;
+    }
+}
