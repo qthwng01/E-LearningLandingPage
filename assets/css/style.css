@@ -1226,6 +1226,10 @@ li {
     .partner {
         margin-top: -20rem;
     }
+    .title__courses h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
     .feedback__list {
         padding-left: 20px;
     }
@@ -1238,5 +1242,26 @@ li {
     .lecture__cover-shape {
         width: 140%;
         height: 300px;
+    }
+    .introduce__text {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .content__2 h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .lecture h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .slide__text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .text__plan__h2 {
+        font-size: 30px;
+        line-height: 40px;
     }
 }
