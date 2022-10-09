@@ -1056,8 +1056,10 @@ img {
     }
     .feedback__description {
         width: auto;
+}
     .avatar__customer {
         width: 20%;
+}
     .text__plan {
         flex-direction: column;
         text-align: center;
