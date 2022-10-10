@@ -900,6 +900,9 @@ img {
     .image__items {
         margin: 15px 15px;
     }
+    .hero__active__image {
+        margin-top: 0;
+    }
     .hero__active__image img {
         width: 80%;
     }
@@ -1049,10 +1052,19 @@ img {
         margin-left: 0 !important;
     }
     .feedback__list {
-        padding-left: 1.5rem;
+        padding-left: 0;
+    }
+    .feedback__items {
+        margin: 0 5px;
     }
     .feedback__title {
         width: auto;
+    }
+    .feedback__description {
+        width: auto;
+    }
+    .avatar__customer {
+        width: 25%;
     }
     .text__plan {
         flex-direction: column;
